@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/viewDialogCountryCodePickerSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/country_code_picker_dialog_search_hint"
+        android:singleLine="true" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/viewDialogCountryCodePickerRv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="8dp"
+        android:clipToPadding="false"/>
+
+    <FrameLayout
+        android:id="@+id/viewDialogCountryCodePickerEmpty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/viewDialogCountryCodePickerEmptyText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/country_code_picker_no_countries_found"
+            android:layout_gravity="center"/>
+
+    </FrameLayout>
+
+</LinearLayout>

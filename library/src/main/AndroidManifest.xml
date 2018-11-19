@@ -1,0 +1,6 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="nl.bartnijland.countrycodepickerdialog">
+    <application>
+        <activity android:name=".ui.activities.SimpleFragmentActivity"/>
+    </application>
+</manifest>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="country_code_picker_dialog_search_hint">Search countries</string>
+    <string name="country_code_picker_no_countries_found">No countries found</string>
+</resources>
