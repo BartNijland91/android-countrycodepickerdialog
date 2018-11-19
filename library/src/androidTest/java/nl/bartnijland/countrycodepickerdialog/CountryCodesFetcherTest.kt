@@ -21,9 +21,9 @@ class CountryCodesFetcherTest {
 
     @Test
     fun testShouldReturnListOfCountryCodes() {
-        val expectedCountry1 = CountryCode(name = "Israel",
-                dialCode = "+972",
-                code = "IL")
+        val expectedCountry1 = CountryCode(name = "Afghanistan",
+                dialCode = "+93",
+                code = "AF")
         assertEquals(fetcher.getCountryCodes()[0], expectedCountry1)
     }
 
