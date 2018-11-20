@@ -14,7 +14,7 @@ Let your activity or fragment implement `OnCountryCodeSelectedListener` in order
 
 - `name` (The name of the country, i.e: United States)
 - `code` (The code of the country, i.e: US)
-- `dialCode` (The dialo code of the country, i.e: +1)
+- `dialCode` (The dial code of the country, i.e: +1)
 
 ## Extras
 
