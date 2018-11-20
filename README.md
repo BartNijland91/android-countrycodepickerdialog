@@ -22,6 +22,7 @@ Let your activity or fragment implement `OnCountryCodeSelectedListener` in order
 - Example how to get a United States `CountryCode` object without interacting with the dialog:
 
 ```kotlin
+val countryCodesFetcher = CountryCodesFetcher(CountryCodesJsonFromDiskFetcher(requireContext()))
 val myCountryCode = countryCodesFetcher
     .getCountryCodes()
     .first { it.code == "US")
