@@ -45,7 +45,7 @@ Add the library dependency to your app's `build.gradle'
 
 ```
 dependencies {
-    implementation 'com.github.BartNijland91:android-countrycodepickerdialog:v1.0.0'
+    implementation 'com.github.BartNijland91:android-countrycodepickerdialog:v1.0.1'
 }
 ```
 
