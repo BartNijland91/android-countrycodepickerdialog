@@ -2,13 +2,13 @@ package nl.bartnijland.countrycodepickerdialog.ui.fragments
 
 import android.content.Context
 import android.os.Bundle
-import android.support.v4.app.DialogFragment
-import android.support.v7.widget.LinearLayoutManager
 import android.text.Editable
 import android.text.TextWatcher
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.fragment.app.DialogFragment
+import androidx.recyclerview.widget.LinearLayoutManager
 import kotlinx.android.synthetic.main.dialog_country_code_picker.*
 import nl.bartnijland.countrycodepickerdialog.R
 import nl.bartnijland.countrycodepickerdialog.fetcher.*
@@ -38,7 +38,7 @@ class CountryCodePickerDialogFragment : DialogFragment(), OnCountryCodeSelectedL
         CountryCodePickerDialogAdapter(this, imageFetcher)
     }
 
-    override fun onAttach(context: Context?) {
+    override fun onAttach(context: Context) {
         super.onAttach(context)
         if (!::jsonFetcher.isInitialized) {
             jsonFetcher = CountryCodesJsonFromDiskFetcher(requireContext())

@@ -1,7 +1,7 @@
 package nl.bartnijland.countrycodepickerdialog
 
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_main.*
 import nl.bartnijland.countrycodepickerdialog.listeners.OnCountryCodeSelectedListener
 import nl.bartnijland.countrycodepickerdialog.models.CountryCode

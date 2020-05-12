@@ -1,11 +1,11 @@
 package nl.bartnijland.countrycodepickerdialog.ui.adapters
 
-import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
+import androidx.recyclerview.widget.RecyclerView
 import nl.bartnijland.countrycodepickerdialog.R
 import nl.bartnijland.countrycodepickerdialog.fetcher.ImageFetcher
 import nl.bartnijland.countrycodepickerdialog.listeners.OnCountryCodeSelectedListener
