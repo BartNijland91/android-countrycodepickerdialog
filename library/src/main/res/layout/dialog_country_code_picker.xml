@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:padding="16dp"
-    android:orientation="vertical">
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
 
     <androidx.appcompat.widget.AppCompatEditText
-        android:id="@+id/viewDialogCountryCodePickerSearch"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+            android:id="@+id/viewDialogCountryCodePickerSearch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_gravity="start"
-            android:textAlignment="viewStart"
-        android:hint="@string/country_code_picker_dialog_search_hint"
-        android:singleLine="true" />
+            android:hint="@string/country_code_picker_dialog_search_hint"
+            android:singleLine="true"
+            android:textAlignment="viewStart" />
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/viewDialogCountryCodePickerRv"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:paddingTop="8dp"
-        android:clipToPadding="false"/>
+            android:id="@+id/viewDialogCountryCodePickerRv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
+            android:paddingTop="8dp" />
 
     <FrameLayout
-        android:id="@+id/viewDialogCountryCodePickerEmpty"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:visibility="gone">
+            android:id="@+id/viewDialogCountryCodePickerEmpty"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
 
         <TextView
-            android:id="@+id/viewDialogCountryCodePickerEmptyText"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/country_code_picker_no_countries_found"
-            android:layout_gravity="center"/>
+                android:id="@+id/viewDialogCountryCodePickerEmptyText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/country_code_picker_no_countries_found" />
 
     </FrameLayout>
 
