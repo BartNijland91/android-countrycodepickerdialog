@@ -2,7 +2,7 @@
 
 ![Screenshot](screenshot.png)
 
-Simple country code picker dialog for Android.
+Simple country code picker dialog for Android with RTL support.
 
 ## Usage
 
